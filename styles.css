@@ -14,12 +14,20 @@
         margin: auto;
         font-family: 'Poppins';
     }    
+    
+    body{
+    background-color: hsl(0, 100%, 74%);
+    background-image: url("images/bg-intro-desktop.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+    
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
     .flex-cont {
         background-color: hsl(0, 100%, 74%);
-        background-image: url("images/bg-intro-desktop.png");
+        background-image: url("images/bg-intro-mobile.png");
         background-attachment: fixed;
         background-size: cover;
         display: flex;
@@ -31,13 +39,14 @@
         margin: auto;
         font-family: 'Poppins';
     }
-}
-
-body{
+    
+    body{
     background-color: hsl(0, 100%, 74%);
-    background-image: url("images/bg-intro-desktop.png");
+    background-image: url("images/bg-intro-mobile.png");
     background-attachment: fixed;
     background-size: cover;
+}
+    
 }
 
 h1 {
